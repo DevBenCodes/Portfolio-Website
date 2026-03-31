@@ -1,18 +1,27 @@
+body {
+    background-color: white;
+    color: black;
+}
+
 .nav-bar {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(112, 135, 114);
     color: black;
     border-bottom: solid 3px black;
     padding: 10px;
     button {
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(158, 184, 154);
         color: black;
         font-size: 20px;
         font-family: noto sans;
         border: solid black 2px;
+        border-radius: 15px;
     }
 }
 
-body {
-    background-color: white;
-    color: black;
+.nav-bar button:hover {
+    transform: scale(1.05);
+}
+
+.homepage-info {
+    padding: 20px;
 }
